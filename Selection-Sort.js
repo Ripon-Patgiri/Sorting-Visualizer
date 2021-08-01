@@ -13,7 +13,8 @@ function selectionSort(inputArr) {
              // Swapping the elements
              let tmp = inputArr[i]; 
              inputArr[i] = inputArr[min];
-             inputArr[min] = tmp;      
+             inputArr[min] = tmp; 
+             console.log(inputArr);     
         }
     }
     return inputArr;
