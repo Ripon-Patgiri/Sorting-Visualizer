@@ -1,0 +1,2 @@
+This is a trial text file to understand the working of Git.
+Try commiting any change to this file
