@@ -1,5 +1,0 @@
-rohan rohan
-
-https://stackabuse.com/selection-sort-in-javascript
-
-https://www.geeksforgeeks.org/selection-sort-visualizer-in-javascript/
