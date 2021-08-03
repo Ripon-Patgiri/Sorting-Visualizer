@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Sorting Visualizer</title>
-        <link rel="stylesheet" href="ripon_index.css">
-    </head>
-    <body>
-        <h1>Sorting Visualizer</h1>
-        <button id="Button1"> Generate Random Array </button>
-        <button id="Button2">Apply Selection Sort</button>
-    </body>
+<html lang="en">
+  
+  <!-- head -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      
+    <!-- title -->
+    <title>Sorting Visualizer</title>
+  
+    <!-- linking style.css -->
+    <link href="ripon_index.css" rel="stylesheet" />
+  </head>
+  
+  <!-- body -->
+  <body >
+   <section class="head">Selection Sort Visualizer</section>
+   <section class="data-container"></section> 
+      
+   <!-- "Generate New Array" button -->
+   <button  class="btn1" onclick="generate()" id="Button1" >
+     Generate New Array</button>   
+     
+   <!-- "Selection Sort" button -->
+   <button class="btn2" 
+           onclick="SelectionSort(),disable()" id="Button2" >
+     Selection Sort</button>
+  </body>
+  
+  <!-- linking index.js -->
+  <!-- <script src="index.js"></script> -->
 </html>
