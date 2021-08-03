@@ -41,7 +41,7 @@ body {
     width: 100%;
     text-align: center;
 }
-.btn1 {
+.generate {
     padding: 12px;
     font-weight: bolder;
     background-color: #6f459e;
@@ -53,7 +53,7 @@ body {
     margin-top: 4vw;
     margin-right: 1vw;
 }
-.btn2 {
+.Sort {
     padding: 12px;
     font-weight: bolder;
     background-color: #6f459e;
