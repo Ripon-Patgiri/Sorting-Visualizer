@@ -55,12 +55,12 @@ async function SelectionSort(delay = 300) {
       // Provide red color to the jth bar
       bars[j].style.backgroundColor = "red";
         
-      // To pause the execution of code for 300 milliseconds
+     // To pause the execution of code for 300 milliseconds
       await new Promise((resolve) =>
         setTimeout(() => {
           resolve();
-        }, 300)
-      );
+        }, 1000)
+      ); 
   
       // To store the integer value of jth bar to var1 
       var val1 = parseInt(bars[j].childNodes[0].innerHTML);
